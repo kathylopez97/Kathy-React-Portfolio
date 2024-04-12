@@ -2,9 +2,7 @@
 import {AiFillGithub} from 'react-icons/ai';
 import {FaLinkedinIn, FaInstagram} from 'react-icons/fa';
 import {FiTwitter} from 'react-icons/fi';
-import logo from '../assets/images/logo.png';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import logo from '../../src/assets/images/logo.png';
 import { useEffect } from 'react';
 import { Outlet } from "react-router-dom";
 const Banner = () => {
@@ -40,7 +38,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <img data-aos="fade-up" src={logo} width={290} height={290} className='rounded-full border-2 p-1 border-text-sky-500 img_glow' alt="" />
+            <img data-aos="fade-up" src={logo} width={290} height={290} className='rounded-full border-2 p-1 border-text-sky-500 img_glow' alt="photo of logo " />
              <><Outlet></Outlet></>
         </div>
         
