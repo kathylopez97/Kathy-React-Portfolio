@@ -1,0 +1,18 @@
+
+        /* Custom CSS for glowing effect */
+        .glow {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .glow:hover {
+            box-shadow: 0 0 25px rgb(32, 152, 192);
+        }
+        .img_glow {
+            transition: all 0.3s ease-in-out;
+        }
+        .img_glow{
+            box-shadow: 0 0 65px lightblue;
+        }
+        .transition {
+            transition: all 0.3s ease-in-out;
+        }
