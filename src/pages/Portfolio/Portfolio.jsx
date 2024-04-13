@@ -1,8 +1,6 @@
 import React from 'react';
 import  {useEffect } from 'react';
 // import images from assets on portfolio 
-import logo from '../../assets/images/logo.png';
-import profile from '../../assets/images/profile.jpg';
 import img1 from '../../assets/images/code.png';
 import img2 from '../../assets/images/workday.png';
 import img3 from '../../assets/images/pwgenerator.png';

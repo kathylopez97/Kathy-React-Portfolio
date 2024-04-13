@@ -12,16 +12,16 @@ const Navbar = () => {
     
         <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
             <ul className="text-center text-xl p-20">
-                <Link spy={true} smooth={true} to="Home">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+                <Link spy={true} smooth={true} to="Banner">
 
-                     <NavLink to="/Banner" className="Banner" data-nav-link> Home </NavLink></li>
+                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+                    <NavLink to="/" className="Banner" data-nav-link> Home </NavLink></li>
                 </Link>
 
                 <Link spy={true} smooth={true} to="About">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
 
-                    <NavLink to="/About" className="About" data-nav-link> About me </NavLink>
+                    <NavLink to="/about" className="About" data-nav-link> About me </NavLink>
                         
                     </li>
                 </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link spy={true} smooth={true} to="Portfolio">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
 
-                    <NavLink to="/Portfolio" className="Portfolio" data-nav-link> Portfolio </NavLink>
+                    <NavLink to="/portfolio" className="Portfolio" data-nav-link> Portfolio </NavLink>
 
                     </li>
          
@@ -37,7 +37,7 @@ const Navbar = () => {
 
                 <Link spy={true} smooth={true} to="Contact">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
-                    <NavLink to="Contact" className="Contact" data-nav-link>Contact </NavLink>  
+                    <NavLink to="/contact" className="Contact" data-nav-link>Contact </NavLink>  
                 </Link>
 
                 </Link>
@@ -69,14 +69,15 @@ const Navbar = () => {
                 <Link spy={true} smooth={true} to="Home">
                     <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
                     
-                    <NavLink to="/Banner" className="Banner" data-nav-link> Home </NavLink></li>
+                    <NavLink to="/" className="Banner" data-nav-link> Home </NavLink></li>
+
                 </Link>
         
                 <Link spy={true} smooth={true} to="About">
                 
                     <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
 
-                    <NavLink to="/About" className="About" data-nav-link> About </NavLink></li>
+                    <NavLink to="/about" className="About" data-nav-link> About </NavLink></li>
                
                 </Link>
               
@@ -84,7 +85,7 @@ const Navbar = () => {
 
                     <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
 
-                    <NavLink to="/Portfolio" className="Portfolio" data-nav-link> Portfolio </NavLink></li>
+                    <NavLink to="/portfolio" className="Portfolio" data-nav-link> Portfolio </NavLink></li>
 
                 </Link>
             
@@ -100,7 +101,7 @@ const Navbar = () => {
 
                     <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">
 
-                    <NavLink to="/Resume" className="Resume" data-nav-link> Resume </NavLink> 
+                    <NavLink to="/resume" className="Resume" data-nav-link> Resume </NavLink> 
                     </li>
 
                 </Link>
