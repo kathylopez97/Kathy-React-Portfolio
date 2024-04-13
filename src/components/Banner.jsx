@@ -18,13 +18,13 @@ const Banner = () => {
                             <a href="" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
                                 <AiFillGithub className="text-[28px]"/>
                             </a>
-                            <a href="" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
+                            <a href="https://www.linkedin.com/feed/?trk=404_page" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
                                 <FaLinkedinIn className="text-[28px]"/>
                             </a>
-                            <a href="" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
+                            <a href="https://twitter.com/home" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
                                 <FiTwitter className="text-[28px]"/>
                             </a>
-                            <a href="" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
+                            <a href="https://www.instagram.com/" className="text-sky-500 hover:text-sky-500 rounded-full glow p-2">
                                 <FaInstagram className="text-[28px]"/>
                             </a>
                         </div>
