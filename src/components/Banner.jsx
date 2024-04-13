@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
                 <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome To <span className="text-sky-500">My Portfolio</span></h1>
-                <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia praesentium autem itaque fugiat, dignissimos pariatur ducimus voluptate, iure cupiditate nihil molestias magnam minima temporibus tempora corporis. Illo quaerat enim porro.</p>
+                <p data-aos="fade-left"> Here is where I will introduce About, Portfolio, how to Contact me and downland my Resume. I will showcase my work as a coder and show my skills on the next following links. Thank you!</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div data-aos="fade-up" className="flex space-x-2">

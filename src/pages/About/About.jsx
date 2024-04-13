@@ -8,7 +8,7 @@ const About = () => {
             <img data-aos="fade-down" src={profile} width={290} height={290} className='circled border-2 p-1 border-text-sky-500 b_glow' alt="glowing effect" />
             <div className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
                 <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal text-sky-500 uppercase">About me</h1>
-                <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia praesentium autem itaque fugiat, dignissimos pariatur ducimus voluptate, iure cupiditate nihil molestias magnam minima temporibus tempora corporis. Illo quaerat enim porro.</p>
+                <p data-aos="fade-left">Hello, My name is Kathy Lopez, I am 26 years old, from Southern California, where I am working as a style consultant , inbound expert, Visual Merchandiser at Target Corporation. Where I have been serving about 8 years in the retail industry. I am currently studying at the University of Minnesota.Where I am further my educating in coding. I also recevied my diploma as a Medical Assistant at UEI College. </p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
     

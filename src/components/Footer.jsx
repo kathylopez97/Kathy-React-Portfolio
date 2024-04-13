@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="mb-4 md:mb-0">
             <span className="text-3xl font-bold">  <img data-aos="fade-down" src={logo} width={80} height={80} className='rounded border-2 p-1 border-text-sky-500' alt="glowing effect" /></span>
-                <p className="text-[18px] my-4">Lorem ipsum dolor sit amet consecte tur, adipisicing elit. Vero praesentium cupiditate, optio id nesciunt quia debitis nostrum blanditiis aperiam tempora!</p>
+                <p className="text-[18px] my-4"> I created a logo to showcase my designing work</p>
             </div>
             <div>
 
