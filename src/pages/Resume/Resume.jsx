@@ -22,7 +22,12 @@ const Resume = () => {
      <div>
 
 </div>
-        <h2 data-aos="fade-right" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-sky-500"> Proficent</h2>
+        <h2 data-aos="fade-right" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-sky-500"> Proficent  </h2>
+        <h3 data-aos="fade-right" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-sky-500">   Here is what Coding Languages I am most Proficent in</h3>
+
+        <div>
+
+        </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
             <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-sky-500 rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2 border-text-sky-500 b_glow">HTML</h2>
             <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-sky-500 rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2 border-text-sky-500 b_glow">CSS</h2>
