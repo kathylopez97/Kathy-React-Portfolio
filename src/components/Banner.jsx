@@ -11,7 +11,8 @@ const Banner = () => {
         <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
                 <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome To <span className="text-sky-500">My Portfolio</span></h1>
-                <p data-aos="fade-left"> Here is where I will introduce About, Portfolio, how to Contact me and downland my Resume. I will showcase my work as a coder and show my skills on the next following links. Thank you!</p>
+                <p data-aos="fade-left"> Experienced Full Stack Developer with a background in retail sales at Target.Knowledge in leveraging web development skills to enhance operational efficiency, streamline processes, and improve customer experiences. 
+Expertise in front and backend technologies, such as CSS, HTML, SQL, NoSQL, MongoDB, Node.js, and Javascript, with a strong foundation in computer science and software engineering principles. Known for delivering high-quality code, troubleshooting complex issues, and collaborating effectively in agile environments. passionate about creating engaging and interactive web experiences. Experienced in building responsive websites and web applications that prioritize user experience and accessibility. Skilled in translating design concepts into functional and visually appealing interfaces. Actively seeking opportunities to contribute to innovative projects and collaborative teams in the tech industry.</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div data-aos="fade-up" className="flex space-x-2">
